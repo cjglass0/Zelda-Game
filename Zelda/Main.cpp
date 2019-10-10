@@ -1,9 +1,10 @@
 #include "pch.h"
-#include "./test.cpp"
+#include "Zelda.h"
+//#include "..\ZeldaTest\test.cpp"
 #include <windows.h>
 int main()
 {
-	Game game = new Game();
+	Game * game = new Game();
 	game->Play();
 
 	system("PAUSE");
